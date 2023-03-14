@@ -5,13 +5,13 @@ This project requires [Node.js](https://nodejs.org/en/) and [npm](https://www.np
 
 
 #Simply run this line to install dependencies:
-npm install
+: npm install
 
 #To run the project with headed mode, Please run this command.
-npx playwright test herokuapp.spec.js --project=chromium --headed
+: npx playwright test herokuapp.spec.js --project=chromium --headed
 
 #For headless with multiple browsers
-npx playwright test herokuapp.spec.js
+: npx playwright test herokuapp.spec.js
 
 #To run a report
-npx playwright show-report
+: npx playwright show-report
